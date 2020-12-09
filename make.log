@@ -1,1 +1,1 @@
-make: `reader' is up to date.
+gfortran ./src/reader.f90 -o reader
