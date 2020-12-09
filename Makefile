@@ -6,3 +6,6 @@ self_overlap: ./src/self_overlap.f90
 
 orthogonal_overlap: ./src/orthogonal_overlap.f90
 	gfortran ./src/orthogonal_overlap.f90 -o ./bin/orthogonal_overlap
+
+overlap_btw_diff_ks: ./src/overlap_btw_diff_ks.f90
+	gfortran ./src/overlap_btw_diff_ks.f90 -o ./bin/overlap_btw_diff_ks

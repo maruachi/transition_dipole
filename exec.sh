@@ -1,4 +1,4 @@
 #!/bin/bash
-make reader > make.log
+make $1 > make.log
 
-./reader
+./bin/$1
